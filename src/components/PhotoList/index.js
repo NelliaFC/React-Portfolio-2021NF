@@ -7,33 +7,33 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
+      name: 'Move it! Project',
+      category: 'commercial',
+      description: 'An application that helps employees find a job based on location they want to live in',
+    },
+    {
+      name: 'The Art Space Project',
+      category: 'commercial',
+      description: 'Where bying, trading, exploring local art is made easy',
+    },
+    {
+      name: 'Project 3',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Grocery booth',
+      name: 'Project 4',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Building exterior',
+      name: 'Project 5',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Restaurant table',
+      name: 'Project 6',
       category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Cafe interior',
-      category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Cat green eyes',
-      category: 'portraits',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
