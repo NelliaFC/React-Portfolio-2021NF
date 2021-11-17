@@ -1,5 +1,5 @@
 import React from "react";
-
+import ProjectCards from "../projectcards";
 const Portfolio = () => (
   <div>
     <h1>Portfolio Page</h1>
@@ -15,6 +15,7 @@ const Portfolio = () => (
       amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus non ullamcorper
       iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
     </p>
+    <ProjectCards></ProjectCards>
   </div>
 );
 

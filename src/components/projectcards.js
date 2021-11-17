@@ -1,8 +1,8 @@
 import React from "react"
-import Card from "./atoms/Card"
+import Card from "./CardTemplate"
 import Fade from "react-reveal/Fade"
 
-import data from "../yourdata"
+import data from "./data"
 
 const ProjectCards = () => {
   return (
